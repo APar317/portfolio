@@ -140,6 +140,9 @@ export default function Projects() {
       date: "May 2025 - Jun 2025",
       shortDescription: "A research project at MNNIT Allahabad focusing on PV fault detection (open/short circuits) and electricity price forecasting using ML/DL.",
       techStack: ["Machine Learning", "Deep Learning", "Image Processing", "Python"],
+      links: [
+        { title: "View Project Data & Code", url: "https://drive.google.com/drive/folders/1itYxU6oMHF0EH_qd8MfquU_RFtURaCMD" }
+      ],
       fullDetails: {
         overview: "Conducted a research internship at Motilal Nehru National Institute of Technology (MNNIT) Allahabad, focusing on smart grid analytics. The project involved simulating photovoltaic (PV) faults and predicting electricity prices using advanced machine learning and deep learning models.",
         impactPoints: [

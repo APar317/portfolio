@@ -36,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <li><Link href="/tech-stack" className="hover:text-sky-400 transition-colors">Tech Stack</Link></li>
               <li><Link href="/education" className="hover:text-sky-400 transition-colors">Education</Link></li>
               <li><Link href="/projects" className="hover:text-sky-400 transition-colors">Projects</Link></li>
+              <li><Link href="/certifications" className="hover:text-sky-400 transition-colors">Certifications</Link></li>
               <li><Link href="/contact" className="hover:text-sky-400 transition-colors">Contact</Link></li>
             </ul>
           </div>

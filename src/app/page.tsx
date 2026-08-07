@@ -6,18 +6,14 @@ export default function Home() {
   return (
     <div className="flex-1 flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-24 py-12 md:py-24">
       <div className="flex-1 space-y-8 max-w-3xl">
-        {/* Badge */}
-        <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700 text-sky-400 text-sm font-medium">
-          <Terminal className="w-4 h-4" />
-          <span>Hello, I'm Apar Saran</span>
-        </div>
-
         {/* Main Heading */}
-        <div className="space-y-4">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-slate-50 leading-[1.1]">
-            Cloud & DevOps <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-500">Engineer</span>
+        <div className="space-y-2 mb-6">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-black tracking-tight text-white uppercase drop-shadow-sm">
+            APAR SARAN
           </h1>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-300 mt-2">
+            Cloud & DevOps <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-500">Engineer</span>
+          </h2>
         </div>
 
         {/* Description */}
