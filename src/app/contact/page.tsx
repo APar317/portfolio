@@ -13,7 +13,7 @@ export default function Contact() {
         I'm currently looking for new opportunities in Cloud Infrastructure and DevOps engineering. Feel free to reach out via any of the platforms below!
       </p>
 
-      <div className="space-y-6 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
         {/* Email */}
         <a 
           href="mailto:aparsaran1721@gmail.com" 

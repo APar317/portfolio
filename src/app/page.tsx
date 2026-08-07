@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Terminal } from "lucide-react";
+import { ArrowRight, Terminal, Download } from "lucide-react";
 
 export default function Home() {
   return (
@@ -37,6 +37,16 @@ export default function Home() {
           >
             Get in Touch
           </Link>
+          <a 
+            href="/Apar_Saran_Resume.pdf" 
+            download="Apar_Saran_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-slate-800 border border-sky-500/30 text-sky-400 font-medium rounded-xl hover:bg-slate-800/80 hover:border-sky-400 transition-all duration-300 group"
+          >
+            <Download className="w-4 h-4 mr-2 group-hover:-translate-y-1 transition-transform" />
+            Download Resume
+          </a>
           <Link 
             href="/projects" 
             className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-slate-800/50 border border-slate-700 text-slate-200 font-medium rounded-xl hover:bg-slate-800 hover:border-slate-500 transition-all duration-300"
