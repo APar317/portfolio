@@ -38,8 +38,8 @@ export default function Home() {
             Get in Touch
           </Link>
           <a 
-            href="/Apar_Saran_Resume.pdf" 
-            download="Apar_Saran_Resume.pdf"
+            href="/AparResume.pdf" 
+            download="AparResume.pdf"
             target="_blank"
             rel="noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-slate-800 border border-sky-500/30 text-sky-400 font-medium rounded-xl hover:bg-slate-800/80 hover:border-sky-400 transition-all duration-300 group"
