@@ -25,9 +25,9 @@ export default function Experience() {
           </div>
           
           <ul className="ml-5 space-y-4 text-slate-300 text-base leading-relaxed list-disc marker:text-sky-400">
-            <li>Automated end-to-end software delivery pipelines using Jenkins and GitHub Actions, reducing manual deployment efforts and boosting release frequency.</li>
-            <li>Provisioned and managed scalable cloud infrastructure on AWS using Terraform and Docker, containerizing applications for Kubernetes (kubeadm) deployments.</li>
-            <li>Integrated SonarQube, Maven, and Nexus Repository to establish robust code quality gates and artifact management.</li>
+            <li>Automated end-to-end pipelines using Jenkins and GitHub Actions, reducing manual deployment efforts by 40% and boosting release frequency by 3x.</li>
+            <li>Provisioned and managed AWS infrastructure using Terraform and Docker, containerizing 12+ applications for Kubernetes (kubeadm) deployments.</li>
+            <li>Integrated SonarQube, Maven, and Nexus to establish robust code quality gates and artifact management pipelines, reducing deployment errors by 30%.</li>
           </ul>
         </div>
 
@@ -61,16 +61,19 @@ export default function Experience() {
               <p className="text-lg text-sky-400 mt-1">Motilal Nehru National Institute of Technology</p>
               <p className="text-slate-500 text-sm mt-1">Prayagraj, India</p>
             </div>
-            <div className="text-left md:text-right md:self-start">
+            <div className="text-left md:text-right md:self-start flex flex-col items-start md:items-end gap-2">
               <span className="inline-block px-4 py-1.5 bg-slate-900 border border-slate-700 rounded-full text-sm font-medium text-slate-300">
                 May 2025 - Jun 2025
               </span>
+              <a href="https://drive.google.com/file/d/1Tw6Wqz4BgGxYF90Vqbs9kZg9TQTVIoUY/view?usp=drive_link" target="_blank" rel="noreferrer" className="text-sky-400 hover:text-sky-300 text-sm font-medium transition-colors border border-sky-400/30 bg-sky-400/10 px-3 py-1 rounded-full">
+                View Certificate ↗
+              </a>
             </div>
           </div>
           
           <ul className="space-y-4 text-slate-300 text-base leading-relaxed list-disc list-inside marker:text-sky-400">
-            <li>Worked on smart-grid data and image analysis to detect open and short circuit faults using ML and DL techniques.</li>
-            <li>Built and optimized ML/DL models for electricity price prediction, improving forecasting accuracy and system performance.</li>
+            <li>Analyzed smart-grid data and image datasets (15,000+ samples) to detect open and short circuit faults using ML and DL models.</li>
+            <li>Developed and compared 5 ML/DL models trained on a 160,000+ row dataset to forecast electricity prices, improving forecasting accuracy and system performance.</li>
           </ul>
         </div>
       </div>

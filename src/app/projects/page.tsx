@@ -18,12 +18,10 @@ export default function Projects() {
       fullDetails: {
         overview: "A comprehensive project aimed at transforming a manual healthcare facility into a fully automated digital ecosystem. By leveraging the open-source Bahmni framework, I orchestrated the seamless interaction between multiple critical healthcare modules.",
         impactPoints: [
-          "Deployed and customized the Bahmni healthcare framework, integrating OpenMRS (clinical), OpenEMR, and Odoo (ERP/billing) to digitize the entire hospital workflow.",
-          "Engineered custom Dockerfiles and docker-compose scripts from scratch to containerize legacy components, ensuring scalable and consistent deployments.",
-          "Debugged and resolved complex container networking and DNS connectivity errors between microservices to ensure zero-downtime data synchronization.",
-          "Investigated and patched critical source-code bugs within the scheduling and provider mapping modules to fix appointment booking failures.",
-          "Automated the complete end-to-end patient journey: front-desk registration, clinical consultation, digital prescription routing, and Odoo-driven billing/pharmacy inventory dispensing.",
-          "Impact: Drastically reduced patient wait times, eliminated paper-based data entry errors, and established real-time automated inventory tracking for the hospital pharmacy."
+          "Deployed and customized the Bahmni framework across 3 platforms (OpenMRS, OpenEMR, and Odoo 16 ERP), digitizing clinical/admin workflows for a hospital serving 100+ daily OPD patients.",
+          "Engineered 8+ custom Docker images, resolved 12+ networking/AtomFeed synchronization errors, and patched 4 critical bugs in scheduling and provider-mapping modules.",
+          "Automated 7 hospital workflows: patient UHID registration, doctor profile, scheduling, OPD queue, clinical EMR consult, e-prescription, and Odoo billing/invoicing.",
+          "Synced data between OpenMRS and Odoo via AtomFeed, ensuring real-time patient record propagation across clinical, pharmacy, and billing modules with zero data duplication."
         ],
         components: [
           "OpenMRS (Clinical & Patient Management)",
@@ -45,9 +43,10 @@ export default function Projects() {
         overview: "The legacy platform was slow, monolithic, and difficult to manage, significantly hindering user experience. I completely transformed it into a blazing-fast, decoupled architecture designed for extreme performance and ease of use. The new system separates content management from frontend rendering, allowing non-technical store managers to update the product catalog effortlessly while maintaining sub-second load times.",
         ndaNote: "Due to a strict Non-Disclosure Agreement (NDA), I cannot publicly share the client's name or the live website URL. The provided GitHub repository contains the sanitized core architecture.",
         impactPoints: [
-          "Decoupled content management from rendering by integrating PocketBase (Headless CMS) with Astro (SSG) on a GCP Compute Engine VM, achieving sub-second load times and near-perfect SEO/Lighthouse scores.",
-          "Automated publishing by routing webhooks from PocketBase to trigger GitHub Actions rebuilds on Cloudflare Pages, enabling non-technical users to update the catalog instantly without code changes.",
-          "Developed secure API proxy routes and response caching, shielding database credentials and preventing direct database exploitation while minimizing query overhead."
+          "Engineered a decoupled, high-performance E-commerce platform by integrating Astro (SSG) and PocketBase (Headless CMS) on GCP, reducing page load times to 1-3 seconds and achieving perfect Lighthouse scores.",
+          "Eliminated 24/7 server hosting costs by leveraging SSG; configured the GCP Compute Engine VM to run on-demand dynamically only during product catalog modifications (add/edit/delete updates).",
+          "Deployed a live, fully synchronized catalog of 20+ products using PocketBase webhooks to trigger automated frontend rebuilds and CI/CD pipelines on Cloudflare Pages via GitHub Actions.",
+          "Secured database endpoints by developing server-side API proxy routes and response caching, shielding database credentials and preventing direct database exploitation."
         ],
         components: [
           "Astro (Static Site Generation)",
@@ -146,10 +145,8 @@ export default function Projects() {
       fullDetails: {
         overview: "Conducted a research internship at Motilal Nehru National Institute of Technology (MNNIT) Allahabad, focusing on smart grid analytics. The project involved simulating photovoltaic (PV) faults and predicting electricity prices using advanced machine learning and deep learning models.",
         impactPoints: [
-          "Simulated PV string performance to model Open Circuit and Short Circuit faults, developing threshold-based detection logic to identify voltage and current anomalies.",
-          "Built and optimized deep learning models (LSTM, ANN) and machine learning models (XGBoost) for highly accurate electricity price forecasting.",
-          "Performed extensive feature engineering, including lag features (1h, 24h, 48h, 168h) for time-series forecasting of electricity day-ahead prices.",
-          "Applied data analysis and image processing techniques to evaluate, analyze, and visualize smart-grid performance metrics."
+          "Analyzed smart-grid data and image datasets (15,000+ samples) to detect open and short circuit faults using ML and DL models.",
+          "Developed and compared 5 ML/DL models trained on a 160,000+ row dataset to forecast electricity prices, improving forecasting accuracy and system performance."
         ],
         components: [
           "Deep Learning (LSTM, ANN) & ML (XGBoost)",
