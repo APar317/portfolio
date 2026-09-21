@@ -72,15 +72,7 @@ export default function Certifications() {
           </div>
         </div>
 
-        {/* Horizontal Box for Director's Medal */}
-        <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 md:p-8 hover:bg-slate-800 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-6 mt-6">
-          <div className="flex-1">
-            <h2 className="text-2xl font-bold text-slate-100 mb-2">Director's Medal</h2>
-            <p className="text-slate-400 text-base leading-relaxed max-w-3xl">
-              Awarded the prestigious Director's Medal at Dayalbagh Educational Institute for securing the highest marks (9.98 CGPA) in Class X.
-            </p>
-          </div>
-        </div>
+
       </div>
     </div>
   );
