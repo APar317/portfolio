@@ -61,7 +61,7 @@ export default function Certifications() {
           </div>
           <div className="flex-shrink-0 mt-4 sm:mt-0">
             <a 
-              href="#" 
+              href="https://drive.google.com/file/d/1q9a-GJVyM-HdGRHlEG760m-J_Ig25mYS/view?usp=sharing" 
               target="_blank" 
               rel="noreferrer" 
               className="inline-flex items-center justify-center px-6 py-3 bg-sky-500 text-slate-950 font-semibold rounded-xl hover:bg-sky-400 transition-all duration-300 shadow-lg shadow-sky-500/20 whitespace-nowrap"
