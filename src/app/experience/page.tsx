@@ -17,10 +17,13 @@ export default function Experience() {
               <p className="text-lg text-sky-400 mt-1">Third AI Platforms Pvt. Ltd.</p>
               <p className="text-slate-500 text-sm mt-1">Delhi, India</p>
             </div>
-            <div className="text-left md:text-right md:self-start">
+            <div className="text-left md:text-right md:self-start flex flex-col items-start md:items-end gap-2">
               <span className="inline-block px-4 py-1.5 bg-slate-900 border border-slate-700 rounded-full text-sm font-medium text-slate-300">
-                Apr 2026 - Present
+                Apr 2026 - Aug 2026
               </span>
+              <a href="/certifications" className="text-sky-400 hover:text-sky-300 text-sm font-medium transition-colors border border-sky-400/30 bg-sky-400/10 px-3 py-1 rounded-full">
+                View Certificate ↗
+              </a>
             </div>
           </div>
           

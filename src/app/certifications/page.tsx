@@ -50,6 +50,28 @@ export default function Certifications() {
             </a>
           </div>
         </div>
+
+        {/* Horizontal Box for ThirdAI Internship Certificate */}
+        <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 md:p-8 hover:bg-slate-800 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-6 mt-6">
+          <div className="flex-1">
+            <h2 className="text-2xl font-bold text-slate-100 mb-2">ThirdAI Platforms Pvt. Ltd. Internship Certificate</h2>
+            <p className="text-slate-400 text-base leading-relaxed max-w-3xl">
+              Completed Cloud & DevOps Internship at THIRD AI PLATFORMS PRIVATE LIMITED. (April 2026 - August 2026)
+            </p>
+          </div>
+          <div className="flex-shrink-0 mt-4 sm:mt-0">
+            <a 
+              href="#" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="inline-flex items-center justify-center px-6 py-3 bg-sky-500 text-slate-950 font-semibold rounded-xl hover:bg-sky-400 transition-all duration-300 shadow-lg shadow-sky-500/20 whitespace-nowrap"
+            >
+              <ExternalLink className="w-5 h-5 mr-2" />
+              View Certificate
+            </a>
+          </div>
+        </div>
+
         {/* Horizontal Box for Director's Medal */}
         <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 md:p-8 hover:bg-slate-800 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-6 mt-6">
           <div className="flex-1">
