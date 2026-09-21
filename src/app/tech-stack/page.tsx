@@ -10,7 +10,7 @@ export default function TechStack() {
     {
       title: "Cloud & Infrastructure",
       icon: <Cloud className="w-6 h-6 text-sky-400" />,
-      skills: ["AWS", "Terraform", "Docker", "Kubernetes", "Ansible"]
+      skills: ["AWS", "Terraform", "Docker", "Kubernetes"]
     },
     {
       title: "CI/CD & DevOps Tools",
